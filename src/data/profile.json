@@ -1,0 +1,25 @@
+{
+  "name": "Prakash Saini",
+  "title": "Software Engineer",
+  "subtitle": "Full Stack Developer & AI/ML Enthusiast",
+  "bio": "Software Engineer with 2+ years of experience delivering complex, high-performance software across the full stack. Skilled in Python, C++, Go, and JavaScript, with expertise in cloud-native services, container orchestration (Docker, Kubernetes), and API development. Recognized with HPE's Relentless Curious Award and runner-up in Global HPE Innovation Days.",
+  "location": "Open to Relocate",
+  "phone": "+1 (737) 296-8315",
+  "email": "sainiprakash525@gmail.com",
+  "availability": "Available for Full-time Opportunities",
+  "yearsOfExperience": "2+",
+  "domains": ["Full Stack Development", "Cloud Architecture", "AI/ML", "DevOps"],
+  "social": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sainiprakash525",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Prakash-sa",
+      "icon": "github"
+    }
+  ],
+  "resumeUrl": "/resume.pdf"
+}

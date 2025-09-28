@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hpe-relentless-curious",
+    "title": "Relentless Curious Award",
+    "issuer": "HPE Vice President",
+    "date": "2024",
+    "description": "Recognized for exceptional curiosity and innovation in software development",
+    "type": "Award",
+    "icon": "trophy",
+    "featured": true
+  },
+  {
+    "id": "hpe-innovation-days",
+    "title": "Global HPE Innovation Days",
+    "issuer": "Hewlett Packard Enterprise",
+    "date": "2024",
+    "description": "Runner-up in company-wide innovation competition",
+    "type": "Competition",
+    "icon": "medal",
+    "featured": true
+  },
+  {
+    "id": "hackathon-winner",
+    "title": "National Level Hackathons",
+    "issuer": "Various Organizations",
+    "date": "2019-2021",
+    "description": "Winner of 4 National Level Hackathons during undergraduate studies",
+    "type": "Competition",
+    "icon": "code",
+    "featured": true
+  }
+]

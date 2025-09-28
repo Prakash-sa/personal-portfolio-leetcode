@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ut-austin",
+    "institution": "University of Texas at Austin",
+    "degree": "MS in Information Science",
+    "specialization": "Machine Learning",
+    "location": "Austin, USA",
+    "startDate": "Aug 2022",
+    "endDate": "May 2024",
+    "gpa": null,
+    "coursework": [
+      "Machine Learning",
+      "Deep Learning", 
+      "Natural Language Processing",
+      "AI in Health",
+      "Software Design & Implementation"
+    ],
+    "achievements": [],
+    "type": "Masters"
+  },
+  {
+    "id": "nit-surat",
+    "institution": "National Institute of Technology Surat",
+    "degree": "BE in Electronics & Communication Engineering",
+    "specialization": "ECE",
+    "location": "Surat, India", 
+    "startDate": "Aug 2017",
+    "endDate": "May 2021",
+    "gpa": null,
+    "coursework": [],
+    "achievements": [],
+    "type": "Bachelors"
+  }
+]

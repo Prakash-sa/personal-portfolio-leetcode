@@ -1,0 +1,73 @@
+[
+  {
+    "id": "hpe-sde",
+    "company": "Hewlett Packard Enterprise",
+    "role": "Software Developer",
+    "location": "Fort Collins, CO",
+    "startDate": "Jul 2024",
+    "endDate": "May 2025",
+    "current": true,
+    "type": "Full-time",
+    "description": "Leading scalable storage microservices development and AI automation initiatives",
+    "achievements": [
+      "Led the design and implementation of scalable, high-availability storage microservices supporting HPE Storage using React, Python, Go, Kubernetes, Docker, and AWS",
+      "Pioneered an AI-powered automation chatbot using open-source tools like n8n, Qdrant, S3, and Ollama, reducing manual analysis time by 90%",
+      "Collaborated with PMs, designers, and QA to deliver features with fast iteration cycles, reducing release time by 1 month",
+      "Strengthened infrastructure security by enforcing FIPS compliance and integrating OAuth2/JWT authentication, reducing security risk by 75%",
+      "Successfully led a team of 4 developers for 3 release cycles following Agile methodologies",
+      "Integrated audit logging using event-driven patterns with Kafka within 1 week"
+    ],
+    "technologies": ["React", "Python", "Go", "Kubernetes", "Docker", "AWS", "n8n", "Qdrant", "S3", "Ollama", "OAuth2", "JWT", "Kafka"],
+    "metrics": {
+      "teamSize": 4,
+      "releaseReduction": "1 month",
+      "securityImprovement": "75%",
+      "automationImprovement": "90%"
+    }
+  },
+  {
+    "id": "hpe-intern",
+    "company": "Hewlett Packard Enterprise",
+    "role": "Software Engineer Intern",
+    "location": "Fort Collins, CO",
+    "startDate": "May 2023",
+    "endDate": "Aug 2023",
+    "current": false,
+    "type": "Internship",
+    "description": "Developed internationalization features and CI/CD automation",
+    "achievements": [
+      "Collaborated in developing the internationalization (I18N) and localization (L10N) feature for services using React, Go, AWS, and GitHub",
+      "Ensured seamless integration into the entire codebase within 7 days",
+      "Built CI/CD pipelines using GitHub Actions to automate tests and deployment, reducing manual overhead by 80%"
+    ],
+    "technologies": ["React", "Go", "AWS", "GitHub", "GitHub Actions", "I18N", "L10N"],
+    "metrics": {
+      "integrationTime": "7 days",
+      "automationImprovement": "80%"
+    }
+  },
+  {
+    "id": "nokia-sde",
+    "company": "Nokia Solutions and Networks",
+    "role": "Software Engineer",
+    "location": "Bangalore, India",
+    "startDate": "Jul 2021",
+    "endDate": "Jun 2022",
+    "current": false,
+    "type": "Full-time",
+    "description": "Implemented network monitoring tools and performance optimizations",
+    "achievements": [
+      "Implemented automated system health checks and network monitoring tools using Python and Bash",
+      "Reduced network setup time from 6-7 days to under 5 minutes (99% reduction)",
+      "Proactively identified and resolved UI/API performance bottlenecks, achieving a 40% improvement in load times",
+      "Participated in 24x7 on-call support rotation and authored technical documentation",
+      "Created monitoring dashboards in Prometheus and Grafana, decreasing incident detection time by 90%"
+    ],
+    "technologies": ["Python", "Bash", "Prometheus", "Grafana", "Microservices"],
+    "metrics": {
+      "setupTimeReduction": "99%",
+      "performanceImprovement": "40%",
+      "incidentDetectionImprovement": "90%"
+    }
+  }
+]

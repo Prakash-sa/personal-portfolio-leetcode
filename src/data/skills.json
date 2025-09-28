@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "skills": [
+        { "name": "Go", "level": 90, "category": "Backend" },
+        { "name": "Python", "level": 95, "category": "Backend" },
+        { "name": "Java", "level": 85, "category": "Backend" },
+        { "name": "JavaScript", "level": 90, "category": "Frontend" },
+        { "name": "TypeScript", "level": 90, "category": "Frontend" },
+        { "name": "C/C++", "level": 80, "category": "Systems" },
+        { "name": "SQL", "level": 85, "category": "Database" }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "skills": [
+        { "name": "React", "level": 95, "category": "Framework" },
+        { "name": "Node.js", "level": 85, "category": "Runtime" },
+        { "name": "Angular", "level": 75, "category": "Framework" },
+        { "name": "Vite", "level": 80, "category": "Build Tool" },
+        { "name": "Tailwind CSS", "level": 90, "category": "Styling" },
+        { "name": "Cypress", "level": 75, "category": "Testing" },
+        { "name": "Jest", "level": 80, "category": "Testing" },
+        { "name": "HTML5/CSS3", "level": 95, "category": "Markup" }
+      ]
+    },
+    {
+      "name": "Backend & APIs",
+      "skills": [
+        { "name": "Flask", "level": 90, "category": "Python" },
+        { "name": "FastAPI", "level": 85, "category": "Python" },
+        { "name": "Golang", "level": 90, "category": "Go" },
+        { "name": "Spring Boot", "level": 80, "category": "Java" },
+        { "name": "GraphQL", "level": 75, "category": "API" },
+        { "name": "OAuth2", "level": 85, "category": "Auth" },
+        { "name": "JWT", "level": 85, "category": "Auth" },
+        { "name": "Swagger/OpenAPI", "level": 80, "category": "Documentation" }
+      ]
+    },
+    {
+      "name": "Cloud & Containerization",
+      "skills": [
+        { "name": "AWS", "level": 90, "category": "Cloud" },
+        { "name": "Azure", "level": 85, "category": "Cloud" },
+        { "name": "GCP", "level": 80, "category": "Cloud" },
+        { "name": "Docker", "level": 95, "category": "Container" },
+        { "name": "Kubernetes", "level": 90, "category": "Orchestration" }
+      ]
+    },
+    {
+      "name": "AI/ML & AI-Assisted Development",
+      "skills": [
+        { "name": "PyTorch", "level": 85, "category": "ML Framework" },
+        { "name": "TensorFlow", "level": 80, "category": "ML Framework" },
+        { "name": "LangChain", "level": 85, "category": "LLM" },
+        { "name": "Hugging Face", "level": 85, "category": "Models" },
+        { "name": "NLP", "level": 90, "category": "Domain" },
+        { "name": "GenAI", "level": 85, "category": "AI" },
+        { "name": "Agentic AI", "level": 80, "category": "AI" }
+      ]
+    },
+    {
+      "name": "DevOps & CI/CD",
+      "skills": [
+        { "name": "Git", "level": 95, "category": "VCS" },
+        { "name": "GitHub Actions", "level": 90, "category": "CI/CD" },
+        { "name": "Jenkins", "level": 85, "category": "CI/CD" },
+        { "name": "Terraform", "level": 80, "category": "IaC" },
+        { "name": "Helm", "level": 75, "category": "K8s" }
+      ]
+    },
+    {
+      "name": "Databases & Messaging",
+      "skills": [
+        { "name": "PostgreSQL", "level": 90, "category": "SQL" },
+        { "name": "MySQL", "level": 85, "category": "SQL" },
+        { "name": "MongoDB", "level": 80, "category": "NoSQL" },
+        { "name": "Redis", "level": 85, "category": "Cache" },
+        { "name": "Kafka", "level": 80, "category": "Messaging" }
+      ]
+    }
+  ]
+}

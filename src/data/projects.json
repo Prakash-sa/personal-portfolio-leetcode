@@ -1,0 +1,153 @@
+[
+  {
+    "id": "news-app",
+    "title": "News Summarization App",
+    "description": "AI-powered news summarization using fine-tuned Mistral-7B model with QLoRA optimization",
+    "longDescription": "Advanced news summarization application leveraging state-of-the-art language models for efficient content processing.",
+    "category": "AI/ML",
+    "type": "Personal",
+    "status": "Completed",
+    "featured": true,
+    "technologies": ["Python", "Mistral-7B", "QLoRA", "PyTorch", "Transformers", "Flask", "React"],
+    "links": {
+      "github": "https://github.com/Prakash-sa/news-app",
+      "demo": "https://news-app-demo.vercel.app"
+    },
+    "images": [
+      "/projects/news-app-1.jpg",
+      "/projects/news-app-2.jpg"
+    ],
+    "startDate": "2024-01",
+    "endDate": "2024-03",
+    "caseStudy": {
+      "problem": "Manual news consumption is time-consuming and inefficient. Users need quick, accurate summaries of lengthy articles to stay informed without spending hours reading.",
+      "approach": "Implemented fine-tuning of Mistral-7B-Instruct-GPTQ on the SAMSum dataset using QLoRA with 4-bit quantization to create efficient summarization capabilities.",
+      "architecture": "```mermaid\ngraph TD\n    A[News Articles] --> B[Preprocessing Pipeline]\n    B --> C[Mistral-7B Model]\n    C --> D[QLoRA Fine-tuning]\n    D --> E[Summary Generation]\n    E --> F[Quality Validation]\n    F --> G[User Interface]\n    \n    H[SAMSum Dataset] --> D\n    I[4-bit Quantization] --> C\n```",
+      "results": [
+        "Achieved ROUGE-L F1 score of 0.162",
+        "BLEU score of 0.0198 with high semantic accuracy",
+        "BERTScore F1 of 0.860 demonstrating semantic alignment",
+        "70% reduction in GPU memory usage through quantization",
+        "Real-time summarization capability"
+      ],
+      "metrics": {
+        "rougeL": 0.162,
+        "bleuScore": 0.0198,
+        "bertScore": 0.860,
+        "memoryReduction": "70%"
+      }
+    }
+  },
+  {
+    "id": "bio-gpt",
+    "title": "Bio GPT Question Answering",
+    "description": "Biomedical question-answering system using BioGPT with Haystack FARMReader for domain-specific queries",
+    "longDescription": "Specialized biomedical AI system for accurate question answering in healthcare and research contexts.",
+    "category": "AI/ML",
+    "type": "Personal",
+    "status": "Completed",
+    "featured": true,
+    "technologies": ["Python", "BioGPT", "Haystack", "FARMReader", "Flask", "Vercel", "Ngrok"],
+    "links": {
+      "github": "https://github.com/Prakash-sa/bio-gpt",
+      "demo": "https://bio-gpt-demo.vercel.app"
+    },
+    "images": [
+      "/projects/bio-gpt-1.jpg",
+      "/projects/bio-gpt-2.jpg"
+    ],
+    "startDate": "2023-09",
+    "endDate": "2023-12",
+    "caseStudy": {
+      "problem": "Medical professionals and researchers need accurate, quick access to biomedical information. Generic AI models lack domain-specific knowledge for healthcare queries.",
+      "approach": "Trained BioGPT with Haystack FARMReader on domain-specific biomedical datasets to create a specialized question-answering system.",
+      "architecture": "```mermaid\ngraph TD\n    A[Biomedical Questions] --> B[Query Processing]\n    B --> C[BioGPT Model]\n    C --> D[Haystack FARMReader]\n    D --> E[Knowledge Base]\n    E --> F[Answer Generation]\n    F --> G[Confidence Scoring]\n    G --> H[Response Delivery]\n    \n    I[Biomedical Dataset] --> E\n    J[Domain Training] --> C\n```",
+      "results": [
+        "99.55% Exact Match accuracy on answerable questions",
+        "99.61% F1 score across 2,434 test questions",
+        "100% top-N accuracy for unanswerable cases",
+        "Deployed as scalable Flask API with frontend",
+        "Real-time biomedical query processing"
+      ],
+      "metrics": {
+        "exactMatch": "99.55%",
+        "f1Score": "99.61%",
+        "topNAccuracy": "100%",
+        "testQuestions": 2434
+      }
+    }
+  },
+  {
+    "id": "ai-automation-chatbot",
+    "title": "AI-Powered Automation Chatbot",
+    "description": "Enterprise automation chatbot reducing manual analysis time by 90% using n8n, Qdrant, and Ollama",
+    "longDescription": "Revolutionary automation solution for enterprise document analysis and workflow optimization.",
+    "category": "AI/Automation",
+    "type": "Work",
+    "status": "Production",
+    "featured": true,
+    "technologies": ["n8n", "Qdrant", "S3", "Ollama", "Python", "Docker", "Kubernetes"],
+    "links": {
+      "github": "https://github.com/company/ai-automation-chatbot"
+    },
+    "images": [
+      "/projects/automation-bot-1.jpg"
+    ],
+    "startDate": "2024-07",
+    "endDate": "2024-10",
+    "caseStudy": {
+      "problem": "Manual analysis of architecture documents and sales reports was time-consuming, taking hours of human effort and prone to inconsistencies.",
+      "approach": "Built an AI-powered chatbot using open-source tools for automated document analysis, insight generation, and workflow automation.",
+      "architecture": "```mermaid\ngraph TD\n    A[Documents Upload] --> B[n8n Workflow]\n    B --> C[Document Processing]\n    C --> D[Qdrant Vector DB]\n    D --> E[Ollama LLM]\n    E --> F[Analysis Engine]\n    F --> G[Insight Generation]\n    G --> H[Report Creation]\n    H --> I[User Dashboard]\n    \n    J[S3 Storage] --> C\n    K[Automation Rules] --> B\n```",
+      "results": [
+        "90% reduction in manual analysis time",
+        "Automated processing of architecture documents",
+        "Real-time insight generation from sales reports",
+        "Scalable enterprise deployment",
+        "Integration with existing HPE systems"
+      ],
+      "metrics": {
+        "timeReduction": "90%",
+        "documentsProcessed": "1000+",
+        "accuracyRate": "95%"
+      }
+    }
+  },
+  {
+    "id": "storage-microservices",
+    "title": "HPE Storage Microservices",
+    "description": "Scalable, high-availability storage microservices architecture with React frontend and Go backend",
+    "longDescription": "Enterprise-grade microservices platform supporting HPE's storage solutions with modern architecture.",
+    "category": "Backend",
+    "type": "Work",
+    "status": "Production",
+    "featured": true,
+    "technologies": ["React", "Go", "Python", "Kubernetes", "Docker", "AWS", "OAuth2", "JWT"],
+    "links": {
+      "github": "https://github.com/company/storage-microservices"
+    },
+    "images": [
+      "/projects/storage-services-1.jpg"
+    ],
+    "startDate": "2024-07",
+    "endDate": "2025-05",
+    "caseStudy": {
+      "problem": "Legacy storage systems lacked scalability and modern security features, requiring a complete architectural overhaul for enterprise demands.",
+      "approach": "Designed and implemented cloud-native microservices architecture with containerization, security hardening, and modern development practices.",
+      "architecture": "```mermaid\ngraph TD\n    A[React Frontend] --> B[API Gateway]\n    B --> C[Auth Service]\n    B --> D[Storage Service]\n    B --> E[Monitoring Service]\n    \n    C --> F[OAuth2/JWT]\n    D --> G[Go Microservices]\n    G --> H[Kubernetes Cluster]\n    H --> I[AWS Infrastructure]\n    \n    J[Docker Registry] --> H\n    K[CI/CD Pipeline] --> J\n```",
+      "results": [
+        "High-availability architecture with 99.9% uptime",
+        "75% reduction in security vulnerabilities",
+        "FIPS compliance implementation",
+        "Agile development with 1-month faster releases",
+        "Team leadership of 4 developers"
+      ],
+      "metrics": {
+        "uptime": "99.9%",
+        "securityImprovement": "75%",
+        "releaseSpeedup": "1 month",
+        "teamSize": 4
+      }
+    }
+  }
+]

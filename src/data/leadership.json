@@ -1,0 +1,40 @@
+[
+  {
+    "id": "dsc-google",
+    "title": "Core Team Member",
+    "organization": "Developer Student Club (Google Developers)",
+    "startDate": "2019",
+    "endDate": "2021",
+    "description": "Mentored 150+ students on Android Development and organized the HackCOVID-19 Hackathon with a team that was held on Devfolio",
+    "responsibilities": [
+      "Mentored 150+ students in Android Development",
+      "Organized HackCOVID-19 Hackathon on Devfolio platform",
+      "Led technical workshops and coding sessions",
+      "Managed event logistics and participant coordination"
+    ],
+    "impact": {
+      "studentsImpacted": 150,
+      "eventsOrganized": 5,
+      "hackathonParticipants": 200
+    }
+  },
+  {
+    "id": "cev-core",
+    "title": "Core Team Member", 
+    "organization": "Cutting Edge Visionary",
+    "startDate": "2018",
+    "endDate": "2020",
+    "description": "Mentored 50+ students on Android Development, IoT, and organized events and debates",
+    "responsibilities": [
+      "Mentored 50+ students in Android Development and IoT",
+      "Organized technical events and debate competitions",
+      "Conducted workshops on emerging technologies",
+      "Led team coordination and project management"
+    ],
+    "impact": {
+      "studentsImpacted": 50,
+      "eventsOrganized": 8,
+      "workshopsConducted": 12
+    }
+  }
+]
