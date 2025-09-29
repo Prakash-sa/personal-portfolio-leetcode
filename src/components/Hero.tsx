@@ -1,18 +1,29 @@
-import { motion } from 'framer-motion';
-import { ArrowDown, Download, Mail, Github, Linkedin } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import profileData from '@/data/profile.json';
+import { motion } from "framer-motion";
+import {
+  ArrowDown,
+  Download,
+  Mail,
+  Github,
+  Linkedin,
+  Puzzle,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import profileData from "@/data/profile.json";
+import profilePic from "@/data/profile.jpg";
 
 export default function Hero() {
   const scrollToNext = () => {
-    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+    >
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background" />
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Avatar placeholder */}
@@ -22,10 +33,12 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-primary to-blue-500 p-1"
           >
-            <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-              <span className="text-4xl font-bold gradient-text">
-                {profileData.name.split(' ').map(n => n[0]).join('')}
-              </span>
+            <div className="w-full h-full rounded-full bg-background overflow-hidden">
+              <img
+                src={profilePic}
+                alt={profileData.name}
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
 
@@ -69,11 +82,15 @@ export default function Hero() {
               <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
               Download Resume
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
+            <Button
+              variant="outline"
+              size="lg"
               className="hover-lift"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
             >
               <Mail className="w-5 h-5 mr-2" />
               Get In Touch
@@ -96,8 +113,9 @@ export default function Hero() {
                 className="text-muted-foreground hover:text-primary transition-colors hover-scale"
                 aria-label={social.platform}
               >
-                {social.icon === 'github' && <Github className="w-6 h-6" />}
-                {social.icon === 'linkedin' && <Linkedin className="w-6 h-6" />}
+                {social.icon === "github" && <Github className="w-6 h-6" />}
+                {social.icon === "linkedin" && <Linkedin className="w-6 h-6" />}
+                {social.icon === "leetcode" && <Puzzle className="w-6 h-6" />}
               </a>
             ))}
           </motion.div>

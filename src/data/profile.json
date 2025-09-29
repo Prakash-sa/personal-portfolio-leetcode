@@ -19,6 +19,11 @@
       "platform": "GitHub",
       "url": "https://github.com/Prakash-sa",
       "icon": "github"
+    },
+    {
+      "platform": "LeetCode",
+      "url": "https://leetcode.com/u/sainiprakash525/",
+      "icon": "leetcode"
     }
   ],
   "resumeUrl": "/resume.pdf"

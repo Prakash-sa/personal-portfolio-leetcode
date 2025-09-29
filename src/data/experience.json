@@ -6,7 +6,7 @@
     "location": "Fort Collins, CO",
     "startDate": "Jul 2024",
     "endDate": "May 2025",
-    "current": true,
+    "current": false,
     "type": "Full-time",
     "description": "Leading scalable storage microservices development and AI automation initiatives",
     "achievements": [

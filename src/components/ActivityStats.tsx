@@ -17,15 +17,15 @@ export default function ActivityStats() {
       value: statsData.overview.totalProjects,
       color: 'text-blue-500',
     },
-    {
-      icon: GitPullRequest,
-      label: 'OSS Contributions',
-      value: statsData.overview.ossContributions,
-      color: 'text-green-500',
-    },
+    // {
+    //   icon: GitPullRequest,
+    //   label: 'OSS Contributions',
+    //   value: statsData.overview.ossContributions,
+    //   color: 'text-green-500',
+    // },
     {
       icon: Trophy,
-      label: 'Certifications',
+      label: 'Hackathon Wins',
       value: statsData.overview.certifications,
       color: 'text-yellow-500',
     },
